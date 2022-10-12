@@ -1,4 +1,4 @@
-FROM python:3.10-alpine
+FROM python:3.10.0-alpine
 
 # Create app directory
 WORKDIR /app
