@@ -1,0 +1,20 @@
+{
+    "name": "C4P7UR3-7H3-F14G",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "echo \"No build specified\" && exit 1",
+       "test": "echo \"No test specified\" && exit 1",
+       "start": "pip install -r requirements.txt && flask run"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kushlendrasingh02/C4P7UR3-7H3-F14G.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kushlendrasingh02/C4P7UR3-7H3-F14G/issues"
+    },
+    "homepage": "https://github.com/kushlendrasingh02/C4P7UR3-7H3-F14G#readme"
+}
