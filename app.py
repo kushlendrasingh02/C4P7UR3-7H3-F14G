@@ -31,7 +31,8 @@ def login():
         else:
             conn = get_db_connection()
             cur = conn.cursor()
-            statement = f"SELECT username from user WHERE username='{username}' AND passwd = '{passwd}';"
+            statement = f"SELECT username FROM user WHERE username='{username}' AND password='{password}'"
+
             cur.execute(statement)
             if not cur.fetchone():
                 flash('Wrong uername or password!', 'error')
