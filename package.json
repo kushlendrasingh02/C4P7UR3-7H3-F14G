@@ -6,6 +6,6 @@
     "build": "python app.py"
   },
   "dependencies": {
-    "flask": "^2.0.1"
+    "flask": "latest"
   }
 }
